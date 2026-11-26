@@ -44,6 +44,23 @@ The Inter and Libre Baskerville files referenced by the exported styles are bund
 in `public/_pagesmith/fonts/`, with their licenses, so typography works outside
 the original site builder. They come from the corresponding Fontsource 5.3.0 packages.
 
+## Existing Cloudflare Workers project
+
+The existing `abrany` project uses Workers Builds. It can serve the same static
+site using the explicit asset configuration in `wrangler.jsonc`:
+
+| Setting | Value |
+| --- | --- |
+| Build command | `pnpm run build` |
+| Deploy command | `npx wrangler deploy` |
+
+Cloudflare builds the site once, then uploads the files from `dist`. The explicit
+configuration prevents Wrangler's automatic setup from adding an Astro Cloudflare
+adapter and rebuilding the project for server rendering. Unknown URLs serve the
+exported `404.html` page with a 404 response.
+
+Pages remains an alternative deployment target using the settings above.
+
 ## Forms
 
 The contact and newsletter forms still require the original
