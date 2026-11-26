@@ -1,0 +1,1325 @@
+{
+  "viewportWidth": 1920,
+  "pageBackground": null,
+  "fontSmoothing": "antialiased",
+  "isElementor": false,
+  "sectionThemes": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgb(229, 240, 254)",
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "https://static.wixstatic.com/media/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png/v1/crop/x_0,y_0,w_983,h_900,q_90,enc_auto/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png",
+      "isBackgroundPhoto": true,
+      "textColor": null,
+      "headings": [],
+      "bodyStyle": null,
+      "buttons": [],
+      "layout": {}
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "textColor": "rgb(32, 0, 85)",
+      "headings": [
+        {
+          "tag": "h1",
+          "fontSize": "50px",
+          "fontWeight": "400",
+          "fontFamily": "libre baskerville",
+          "color": "rgb(32, 0, 85)",
+          "text": "From Strategy to Implementation: Empowering Your Financial Services Company on t",
+          "textTransform": "none",
+          "letterSpacing": "1px",
+          "textAlign": "start"
+        },
+        {
+          "tag": "h1",
+          "fontSize": "26px",
+          "fontWeight": "400",
+          "fontFamily": "libre baskerville",
+          "color": "rgb(32, 0, 85)",
+          "text": "Join our mailing list",
+          "textTransform": "none",
+          "textAlign": "start"
+        }
+      ],
+      "bodyStyle": {
+        "fontSize": "18px",
+        "color": "rgb(51, 51, 51)",
+        "lineHeight": "32.4px",
+        "textAlign": "start"
+      },
+      "buttons": [
+        {
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "color": "rgb(136, 136, 136)",
+          "border": "2px solid rgb(136, 136, 136)",
+          "padding": "11px 8.53125px 11px 8.53125px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "fontFamily": "libre baskerville",
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "text": "Subscribe"
+        }
+      ],
+      "links": [
+        {
+          "text": "⟶ Our solutions",
+          "color": "rgb(32, 0, 85)",
+          "fontWeight": "400"
+        }
+      ],
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "childCount": 2
+      },
+      "contentAlignment": {
+        "container": "#SITE_PAGES",
+        "containerSize": {
+          "width": 1905,
+          "height": 1041
+        },
+        "offsets": {
+          "left": 463,
+          "top": 68,
+          "right": 476,
+          "bottom": 713
+        },
+        "center": {
+          "x": 0.497,
+          "y": 0.19
+        },
+        "layout": {
+          "display": "block",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "0px",
+          "padding": "0px",
+          "position": "static"
+        }
+      }
+    }
+  ],
+  "globalTypography": {
+    "headingFont": "libre baskerville",
+    "bodyFont": "helvetica-w01-roman",
+    "scale": {
+      "h1": {
+        "fontSize": "50px",
+        "fontWeight": "400",
+        "lineHeight": "65px",
+        "fontFamily": "libre baskerville",
+        "fontStyle": "normal",
+        "textTransform": "none"
+      },
+      "body": {
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "28.8px",
+        "fontFamily": "helvetica-w01-roman"
+      }
+    },
+    "paragraphMargin": "0px 0px"
+  },
+  "navigation": {
+    "isFullWidth": true,
+    "width": "1905px",
+    "position": "relative",
+    "logo": {
+      "width": "159px",
+      "height": "39px",
+      "widthEvidence": "var(--svg-calculated-width,100%)",
+      "position": "inside-nav",
+      "hasBadge": false
+    },
+    "hasLogo": true,
+    "links": [
+      {
+        "text": "Home",
+        "fontSize": "16px",
+        "fontFamily": "helvetica-w01-roman",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(0, 0, 238)",
+        "isButton": true,
+        "buttonStyle": {
+          "backgroundColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      {
+        "text": "Services",
+        "fontSize": "16px",
+        "fontFamily": "helvetica-w01-roman",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(0, 0, 238)",
+        "isButton": true,
+        "buttonStyle": {
+          "backgroundColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      {
+        "text": "About",
+        "fontSize": "16px",
+        "fontFamily": "helvetica-w01-roman",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(0, 0, 238)",
+        "isButton": true,
+        "buttonStyle": {
+          "backgroundColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      {
+        "text": "Contact",
+        "fontSize": "16px",
+        "fontFamily": "helvetica-w01-roman",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(0, 0, 238)",
+        "isButton": true,
+        "buttonStyle": {
+          "backgroundColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      {
+        "text": "Insights",
+        "fontSize": "16px",
+        "fontFamily": "helvetica-w01-roman",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "textTransform": "none",
+        "color": "rgb(0, 0, 238)",
+        "isButton": true,
+        "buttonStyle": {
+          "backgroundColor": "rgba(255, 255, 255, 0)"
+        }
+      }
+    ],
+    "linkLayout": {
+      "paddingX": "10px 10px",
+      "pitchPx": 144,
+      "distribution": "center",
+      "verticalAlign": "top",
+      "containerAlignment": {
+        "container": "[id=\"SITE_HEADER\"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "containerSize": {
+          "width": 1905,
+          "height": 120
+        },
+        "offsets": {
+          "left": 713,
+          "top": 14,
+          "right": 1068,
+          "bottom": 67
+        },
+        "center": {
+          "x": 0.407,
+          "y": 0.279
+        },
+        "layout": {
+          "display": "grid",
+          "direction": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "padding": "0px",
+          "gap": "normal"
+        },
+        "item": {
+          "alignSelf": "auto",
+          "margin": "4px",
+          "padding": "10px",
+          "position": "relative"
+        }
+      }
+    }
+  },
+  "sliders": [],
+  "buttons": [
+    {
+      "backgroundColor": "rgba(255, 255, 255, 0)",
+      "color": "rgb(136, 136, 136)",
+      "border": "2px solid rgb(136, 136, 136)",
+      "padding": "11px 8.53125px 11px 8.53125px",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "libre baskerville",
+      "fontStyle": "normal",
+      "textTransform": "none",
+      "text": "Subscribe"
+    }
+  ],
+  "videos": [],
+  "footer": {
+    "background": "rgba(0, 0, 0, 0)",
+    "textColor": "rgb(0, 0, 0)",
+    "columns": 1,
+    "textAlign": "start"
+  },
+  "socialLinks": null,
+  "hoverStyles": {
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBackgroundColor": {
+      "backgroundColor": "var(--corvid-background-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBackgroundColor": {
+      "backgroundColor": "var(--corvid-hover-background-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBackgroundColor": {
+      "backgroundColor": "var(--corvid-disabled-background-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasBorderColor": {
+      "borderColor": "var(--corvid-border-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverBorderColor": {
+      "borderColor": "var(--corvid-hover-border-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledBorderColor": {
+      "borderColor": "var(--corvid-disabled-border-color)"
+    },
+    ".StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor, .StylableButton2545352419__root:not():not([disabled]).StylableButton2545352419--hasColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-color)"
+    },
+    ".StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor, .StylableButton2545352419__root:not([disabled]).StylableButton2545352419--hasHoverColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-hover-color)"
+    },
+    ".StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor, .StylableButton2545352419__root:not()[disabled].StylableButton2545352419--hasDisabledColor .StylableButton2545352419__label": {
+      "color": "var(--corvid-disabled-color)"
+    },
+    ".umBpNq.b5wzzG:not():not(:disabled)": {
+      "borderColor": "var(--corvid-border-color,initial)"
+    },
+    ".umBpNq.IdBKRQ:not():not(:disabled)": {
+      "backgroundColor": "var(--corvid-background-color,var(--background))"
+    },
+    ".umBpNq, .umBpNq [data-preview=\"hover\"]": {
+      "boxShadow": "var(--hover-box-shadow,var(--box-shadow))"
+    },
+    ".umBpNq.olGtjp:not(:disabled)": {
+      "borderColor": "var(--corvid-hover-border-color,initial)"
+    },
+    ".umBpNq.H4kLBj:not(:disabled)": {
+      "backgroundColor": "var(--corvid-hover-background-color,var(--hover-background,var(--background)))"
+    },
+    ".umBpNq.jRfRxf:disabled:not()": {
+      "borderColor": "var(--corvid-disabled-border-color,initial)"
+    },
+    ".umBpNq.yNUpJa:disabled:not()": {
+      "backgroundColor": "var(--corvid-disabled-background-color,var(--disabled-background,var(--background)))"
+    },
+    ".umBpNq.EOdpK9:not():not(:disabled) .xuJAxK": {
+      "color": "var(--corvid-color,var(--color))"
+    },
+    ".umBpNq .xuJAxK, .umBpNq [data-preview=\"hover\"] .xuJAxK": {
+      "backgroundColor": "var(--hover-text-highlight,var(--text-highlight,transparent))",
+      "color": "var(--hover-color,var(--color))"
+    },
+    ".umBpNq.wCtkkB:not(:disabled) .xuJAxK": {
+      "color": "var(--corvid-hover-color,var(--hover-color,var(--color)))"
+    },
+    ".umBpNq.GsVIhZ:disabled:not() .xuJAxK": {
+      "color": "var(--corvid-disabled-color,var(--disabled-color,var(--color)))"
+    },
+    ".umBpNq .GvoWb8, .umBpNq [data-preview=\"hover\"] .GvoWb8": {
+      "transform": "rotate(var(--hover-icon-rotation,var(--icon-rotation)))"
+    },
+    ".WZxFET.LEgq9n:not():not(:disabled)": {
+      "borderColor": "var(--corvid-border-color,initial)"
+    },
+    ".WZxFET.ANbqd3:not():not(:disabled)": {
+      "backgroundColor": "var(--corvid-background-color,var(--background))"
+    },
+    ".WZxFET, .WZxFET [data-preview=\"hover\"]": {
+      "boxShadow": "var(--hover-box-shadow,var(--box-shadow))"
+    },
+    ".WZxFET.QHgQsb:not(:disabled)": {
+      "borderColor": "var(--corvid-hover-border-color,initial)"
+    },
+    ".WZxFET.YXO83s:not(:disabled)": {
+      "backgroundColor": "var(--corvid-hover-background-color,var(--hover-background,var(--background)))"
+    },
+    ".WZxFET.Pl_R65:disabled:not()": {
+      "borderColor": "var(--corvid-disabled-border-color,initial)"
+    },
+    ".WZxFET.qSNL2N:disabled:not()": {
+      "backgroundColor": "var(--corvid-disabled-background-color,var(--disabled-background,var(--background)))"
+    },
+    ".WZxFET.xXDwXs:not():not(:disabled) .QeinDR": {
+      "color": "var(--corvid-color,var(--color))"
+    },
+    ".WZxFET .QeinDR, .WZxFET [data-preview=\"hover\"] .QeinDR": {
+      "backgroundColor": "var(--hover-text-highlight,var(--text-highlight,transparent))",
+      "color": "var(--hover-color,var(--color))"
+    },
+    ".WZxFET.DEbY45:not(:disabled) .QeinDR": {
+      "color": "var(--corvid-hover-color,var(--hover-color,var(--color)))"
+    },
+    ".WZxFET.liVS6k:disabled:not() .QeinDR": {
+      "color": "var(--corvid-disabled-color,var(--disabled-color,var(--color)))"
+    },
+    ".WZxFET .vwUNxR, .WZxFET [data-preview=\"hover\"] .vwUNxR": {
+      "transform": "rotate(var(--hover-icon-rotation,var(--icon-rotation)))"
+    },
+    "[data-open]:not([data-animation-state=\"exitActive\"]):not([data-animation-state=\"exitDone\"]) > .fYThT1 > .FBAIyH, .FBAIyH[data-interactive=\"true\"], .FBAIyH[data-preview=\"hover\"], .FBAIyH.BjD2X8": {
+      "boxShadow": "var(--item-hover-box-shadow,var(--item-box-shadow))"
+    },
+    "[data-open]:not([data-animation-state=\"exitActive\"]):not([data-animation-state=\"exitDone\"]) > .fYThT1 > .FBAIyH .ijO_Jr, .FBAIyH[data-interactive=\"true\"] .ijO_Jr, .FBAIyH[data-preview=\"hover\"] .ijO_Jr, .FBAIyH.BjD2X8 .ijO_Jr": {
+      "backgroundColor": "var(--item-hover-text-highlight,var(--item-text-highlight))",
+      "color": "var(--item-hover-color,var(--item-color))"
+    },
+    "[data-prehydration] .NxO5nt .rpHatU[data-anchor=\"menuCustomWidth\"][data-align=\"center\"]": {
+      "transform": "translate(-50%)"
+    },
+    ".Y4Cdvx [data-part=\"menu-item\"][data-animation-name=\"underline\"] [data-part=\"dropdown-item\"] [data-part=\"dropdown-item-label\"]": {
+      "transform": "scaleX(1)"
+    },
+    ".PnnIOa, .PnnIOa[data-preview=\"hover\"]": {
+      "boxShadow": "var(--scroll-button-hover-box-shadow,var(--scroll-button-box-shadow))"
+    },
+    ".PnnIOa .KEUNmX, .PnnIOa[data-preview=\"hover\"] .KEUNmX": {
+      "transform": "rotate(var(--icon-rotation-hover,var(--icon-rotation)))"
+    },
+    ".ptLEUT, .ptLEUT.brJofP, .ptLEUT[data-preview=\"hover\"]": {
+      "color": "var(--item-hover-color,var(--item-color,var(--dropdown-menu-item-hover-color,var(--dropdown-menu-item-color))))",
+      "boxShadow": "var(--item-hover-box-shadow,var(--item-box-shadow,var(--dropdown-menu-item-hover-box-shadow,var(--dropdown-menu-item-box-shadow))))"
+    },
+    ".ptLEUT .u9_aLl, .ptLEUT.brJofP .u9_aLl, .ptLEUT[data-preview=\"hover\"] .u9_aLl": {
+      "backgroundColor": "var(--item-hover-text-highlight,var(--item-text-highlight,var(--dropdown-menu-item-hover-text-highlight,var(--dropdown-menu-item-text-highlight))))"
+    },
+    ".B2qCAf, .B2qCAf.brJofP, .B2qCAf[data-preview=\"hover\"]": {
+      "color": "var(--sub-item-hover-color,var(--sub-item-color,var(--dropdown-menu-sub-item-hover-color,var(--dropdown-menu-sub-item-color))))",
+      "boxShadow": "var(--sub-item-hover-box-shadow,var(--sub-item-box-shadow,var(--dropdown-menu-sub-item-hover-box-shadow,var(--dropdown-menu-sub-item-box-shadow))))"
+    },
+    ".B2qCAf .UCVF7R, .B2qCAf.brJofP .UCVF7R, .B2qCAf[data-preview=\"hover\"] .UCVF7R": {
+      "backgroundColor": "var(--sub-item-hover-text-highlight,var(--sub-item-text-highlight,var(--dropdown-menu-sub-item-hover-text-highlight,var(--dropdown-menu-sub-item-text-highlight))))"
+    },
+    ".uxNlIP.KuCfHA:not():not(:disabled)": {
+      "borderColor": "var(--corvid-border-color,initial)"
+    },
+    ".uxNlIP.aNAcG0:not():not(:disabled)": {
+      "backgroundColor": "var(--corvid-background-color,var(--background))"
+    },
+    ".uxNlIP, .uxNlIP [data-preview=\"hover\"]": {
+      "boxShadow": "var(--hover-box-shadow,var(--box-shadow))"
+    },
+    ".uxNlIP.GPIMxy:not(:disabled)": {
+      "borderColor": "var(--corvid-hover-border-color,initial)"
+    },
+    ".uxNlIP.KceBs9:not(:disabled)": {
+      "backgroundColor": "var(--corvid-hover-background-color,var(--hover-background,var(--background)))"
+    },
+    ".uxNlIP.N3sAZG:disabled:not()": {
+      "borderColor": "var(--corvid-disabled-border-color,initial)"
+    },
+    ".uxNlIP._FFhff:disabled:not()": {
+      "backgroundColor": "var(--corvid-disabled-background-color,var(--disabled-background,var(--background)))"
+    },
+    ".uxNlIP.siSNn5:not():not(:disabled) .I0RXdK": {
+      "color": "var(--corvid-color,var(--color))"
+    },
+    ".uxNlIP .I0RXdK, .uxNlIP [data-preview=\"hover\"] .I0RXdK": {
+      "backgroundColor": "var(--hover-text-highlight,var(--text-highlight,transparent))",
+      "color": "var(--hover-color,var(--color))"
+    },
+    ".uxNlIP.EJ6L9y:not(:disabled) .I0RXdK": {
+      "color": "var(--corvid-hover-color,var(--hover-color,var(--color)))"
+    },
+    ".uxNlIP.S6tzPA:disabled:not() .I0RXdK": {
+      "color": "var(--corvid-disabled-color,var(--disabled-color,var(--color)))"
+    },
+    ".uxNlIP .p_5A25, .uxNlIP [data-preview=\"hover\"] .p_5A25": {
+      "transform": "rotate(var(--hover-icon-rotation,var(--icon-rotation)))"
+    },
+    "[data-prehydration] .itemDepth02233374943__itemWrapper > .itemDepth02233374943__positionBox.itemDepth02233374943--isColumn > .itemDepth02233374943__animationBox": {
+      "opacity": "1"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .twJknM, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .twJknM": {
+      "backgroundColor": "var(--corvid-hover-background-color,rgba(var(--bgh,var(--color_18,color_18)),var(--alpha-bgh,1)))",
+      "borderColor": "var(--corvid-hover-border-color,rgba(var(--brdh,var(--color_15,color_15)),var(--alpha-brdh,1)))"
+    },
+    "body:not(.device-mobile-optimized) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8, :host(:not(.device-mobile-optimized)) .mu5PoX[aria-disabled=\"false\"] .OR4Nv8": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    "body.device-mobile-optimized .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, :host(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"]:active .p2iqNU, body:not(.device-mobile-optimized) .myoKiH[aria-disabled=\"false\"] .p2iqNU, :host(:not(.device-mobile-optimized)) .myoKiH[aria-disabled=\"false\"] .p2iqNU": {
+      "color": "var(--corvid-hover-color,rgb(var(--txth,var(--color_15,color_15))))"
+    },
+    ".sCCUGm1, .skxLJE4": {
+      "color": "rgb(var(--wix-forms-formSubmitButtonColorHover,var(--wix-color-5)))"
+    },
+    "#SITE_CONTAINER.focus-ring-active .skuYT7u .sZtvRi0:focus:not(), #SITE_CONTAINER.focus-ring-active .skuYT7u .sx6Tezo:focus-within": {
+      "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 1px, rgb(17, 109, 255) 0px 0px 0px 3px"
+    },
+    ".sx6Tezo.oLjiDnz--focus, .sx6Tezo": {
+      "borderColor": "rgb(var(--wix-ui-tpa-text-field-hover-border-color,var(--wix-ui-tpa-text-field-main-border-color,var(--wix-color-5))))"
+    },
+    ".sx6Tezo.oOpaCnY---theme-3-box.oLjiDnz--focus, .sx6Tezo.oOpaCnY---theme-3-box, .sx6Tezo.oOpaCnY---theme-4-line.oLjiDnz--focus, .sx6Tezo.oOpaCnY---theme-4-line": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-text-field-hover-background-color-rgb,var(--wix-ui-tpa-text-field-main-background-color-rgb,transparent)),calc(var(--wix-ui-tpa-text-field-hover-background-color-opacity, var(--wix-ui-tpa-text-field-main-background-color-opacity, 1))*var(--wix-ui-tpa-text-field-hover-background-opacity, 1)))"
+    },
+    ".skuYT7u.oOpaCnY--success .sx6Tezo.oLjiDnz--focus, .skuYT7u.oOpaCnY--success .sx6Tezo": {
+      "borderColor": "rgb(0, 130, 80)"
+    },
+    ".skuYT7u.oOpaCnY--error:not(.oOpaCnY--newErrorMessage) .sx6Tezo.oLjiDnz--focus, .skuYT7u.oOpaCnY--error:not(.oOpaCnY--newErrorMessage) .sx6Tezo": {
+      "borderColor": "rgb(var(--wix-ui-tpa-text-field-main-error-border-color,223,49,49))"
+    },
+    ".sx6Tezo.oLjiDnz--focus .stdmXAT, .sx6Tezo .stdmXAT": {
+      "color": "rgb(var(--wix-ui-tpa-text-field-hover-text-color,var(--wix-ui-tpa-text-field-main-text-color,var(--wst-paragraph-2-color-rgb,var(--wix-color-5)))))"
+    },
+    ".skuYT7u .sNvTaVj:focus, .skuYT7u .sNvTaVj": {
+      "backgroundColor": "transparent",
+      "opacity": "1"
+    },
+    ".sirZ_ao.onOBiP0---hoverEffect-4-zoom .sLpoyvG": {
+      "transform": "scale(1) translate(-3.5%, -3.5%)"
+    },
+    ".sPStvHP.ok_sofR---priority-7-primary.o_jpTQe--focus:not(.ok_sofR---hoverStyle-9-underline), .sPStvHP.ok_sofR---priority-7-primary:active:not(.ok_sofR---hoverStyle-9-underline), .sPStvHP.ok_sofR---priority-7-primary:not(.ok_sofR---hoverStyle-9-underline)": {
+      "color": "rgb(var(--wix-ui-tpa-text-button-main-text-color-rgb,var(--wix-color-8)),calc(var(--wix-ui-tpa-text-button-main-text-color-opacity, 1)*.7))"
+    },
+    ".sPStvHP.ok_sofR---priority-9-secondary.o_jpTQe--focus:not(.ok_sofR---hoverStyle-9-underline), .sPStvHP.ok_sofR---priority-9-secondary:active:not(.ok_sofR---hoverStyle-9-underline), .sPStvHP.ok_sofR---priority-9-secondary:not(.ok_sofR---hoverStyle-9-underline)": {
+      "color": "rgb(var(--wix-ui-tpa-text-button-main-text-color-rgb,var(--wix-color-5)),calc(var(--wix-ui-tpa-text-button-main-text-color-opacity, 1)*.7))"
+    },
+    ".sPStvHP.ok_sofR---priority-4-link.o_jpTQe--focus:not(.ok_sofR---hoverStyle-9-underline), .sPStvHP.ok_sofR---priority-4-link:active:not(.ok_sofR---hoverStyle-9-underline), .sPStvHP.ok_sofR---priority-4-link:not(.ok_sofR---hoverStyle-9-underline)": {
+      "color": "rgb(var(--wix-ui-tpa-text-button-main-text-color-rgb,var(--wix-color-5)),calc(var(--wix-ui-tpa-text-button-main-text-color-opacity, 1)*.7))"
+    },
+    ".sPStvHP.ok_sofR---priority-11-primaryLink.o_jpTQe--focus:not(.ok_sofR---hoverStyle-9-underline), .sPStvHP.ok_sofR---priority-11-primaryLink:active:not(.ok_sofR---hoverStyle-9-underline), .sPStvHP.ok_sofR---priority-11-primaryLink:not(.ok_sofR---hoverStyle-9-underline)": {
+      "color": "rgb(var(--wix-ui-tpa-text-button-main-text-color-rgb,var(--wix-color-8)),calc(var(--wix-ui-tpa-text-button-main-text-color-opacity, 1)*.7))"
+    },
+    ".sBiZcer.o_jpTQe--focus, .sBiZcer": {
+      "opacity": "var(--wix-ui-tpa-icon-button-hover-opacity,.7)"
+    },
+    ".sBiZcer.oynzb_K--disabled": {
+      "opacity": "1"
+    },
+    ".sPSoqOG.oA68jmJ---priority-5-basic:active.oA68jmJ---hoverStyle-9-underline, .sPSoqOG.oA68jmJ---priority-5-basic.oA68jmJ---hoverStyle-9-underline, .sPSoqOG:active.oA68jmJ---hoverStyle-9-underline, .sPSoqOG.oA68jmJ---hoverStyle-9-underline": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-button-hover-background-color,var(--wix-ui-tpa-button-main-background-color,var(--wst-paragraph-2-color-rgb,var(--wix-color-5)))))",
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color,var(--wst-primary-background-color-rgb,var(--wix-color-1)))))"
+    },
+    ".sPSoqOG.oA68jmJ---priority-5-basic:active:not(.oA68jmJ---hoverStyle-9-underline), .sPSoqOG.oA68jmJ---priority-5-basic:not(.oA68jmJ---hoverStyle-9-underline), .sPSoqOG:active:not(.oA68jmJ---hoverStyle-9-underline), .sPSoqOG:not(.oA68jmJ---hoverStyle-9-underline)": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-button-hover-background-color,var(--wix-ui-tpa-button-main-background-color,var(--wst-paragraph-2-color-rgb,var(--wix-color-5),.7))))",
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color,var(--wst-primary-background-color-rgb,var(--wix-color-1),.7))))"
+    },
+    ".sPSoqOG.oA68jmJ---priority-14-basicSecondary:active.oA68jmJ---hoverStyle-9-underline, .sPSoqOG.oA68jmJ---priority-14-basicSecondary.oA68jmJ---hoverStyle-9-underline": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-button-hover-background-color,var(--wix-ui-tpa-button-main-background-color,var(--wst-primary-background-color-rgb,var(--wix-color-1)))))",
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color,var(--wst-paragraph-2-color-rgb,var(--wix-color-5)))))"
+    },
+    ".sPSoqOG.oA68jmJ---priority-14-basicSecondary:active:not(.oA68jmJ---hoverStyle-9-underline), .sPSoqOG.oA68jmJ---priority-14-basicSecondary:not(.oA68jmJ---hoverStyle-9-underline)": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-button-hover-background-color,var(--wix-color-1),0))",
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color-rgb,var(--wix-color-5)),calc(var(--wix-ui-tpa-button-main-text-color-opacity, 1) * .7)))"
+    },
+    ".sPSoqOG.oA68jmJ---priority-7-primary:active.oA68jmJ---hoverStyle-9-underline, .sPSoqOG.oA68jmJ---priority-7-primary.oA68jmJ---hoverStyle-9-underline": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-button-hover-background-color,var(--wix-ui-tpa-button-main-background-color,var(--wst-button-primary-background-color-rgb,var(--wix-color-38)))))",
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color,var(--wst-button-primary-color-rgb,var(--wix-color-40)))))"
+    },
+    ".sPSoqOG.oA68jmJ---priority-7-primary:active:not(.oA68jmJ---hoverStyle-9-underline), .sPSoqOG.oA68jmJ---priority-7-primary:not(.oA68jmJ---hoverStyle-9-underline)": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-button-hover-background-color,var(--wix-ui-tpa-button-main-background-color-rgb,var(--wst-button-primary-background-color-rgb,var(--wix-color-41))),calc(var(--wix-ui-tpa-button-main-background-color-opacity, 1) * .7)))",
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color-rgb,var(--wst-button-primary-color-rgb,var(--wix-color-43))),calc(var(--wix-ui-tpa-button-main-text-color-opacity, 1) * .7)))"
+    },
+    ".sPSoqOG.oA68jmJ---priority-9-secondary:active.oA68jmJ---hoverStyle-9-underline, .sPSoqOG.oA68jmJ---priority-9-secondary.oA68jmJ---hoverStyle-9-underline": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-button-hover-background-color,var(--wix-ui-tpa-button-main-background-color,var(--wst-button-secondary-background-color-rgb,var(--wix-color-47),0))))",
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color,var(--wst-button-secondary-color-rgb,var(--wix-color-49)))))"
+    },
+    ".sPSoqOG.oA68jmJ---priority-9-secondary:active:not(.oA68jmJ---hoverStyle-9-underline), .sPSoqOG.oA68jmJ---priority-9-secondary:not(.oA68jmJ---hoverStyle-9-underline)": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-button-hover-background-color,var(--wst-button-secondary-background-color-rgb,var(--wix-color-50),0)))",
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color-rgb,var(--wst-button-secondary-color-rgb,var(--wix-color-52))),calc(var(--wix-ui-tpa-button-main-text-color-opacity, 1) * .7)))"
+    },
+    ".sPSoqOG:not(.oA68jmJ---hoverStyle-9-underline) .sHKtdot svg[fill=\"currentColor\"]": {
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color-rgb,var(--wix-color-1)),calc(var(--wix-ui-tpa-button-main-text-color-opacity, 1) * .7)))"
+    },
+    ".sPSoqOG.oA68jmJ---priority-9-secondary:not(.oA68jmJ---hoverStyle-9-underline) .sHKtdot svg[fill=\"currentColor\"]": {
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color-rgb,var(--wix-color-52)),calc(var(--wix-ui-tpa-button-main-text-color-opacity, 1) * .7)))"
+    },
+    ".sPSoqOG.oA68jmJ---priority-14-basicSecondary:not(.oA68jmJ---hoverStyle-9-underline) .sHKtdot svg[fill=\"currentColor\"]": {
+      "color": "rgb(var(--wix-ui-tpa-button-hover-text-color,var(--wix-ui-tpa-button-main-text-color-rgb,var(--wix-color-5)),calc(var(--wix-ui-tpa-button-main-text-color-opacity, 1) * .7)))"
+    },
+    ".snZ_6f6.snZ_6f6.snZ_6f6.snZ_6f6 input:-webkit-autofill:focus, .snZ_6f6.snZ_6f6.snZ_6f6.snZ_6f6 input:-webkit-autofill": {
+      "boxShadow": "0 0 0 1000px rgb(var(--wix-forms-formInputBackgroundColorHover-rgb,var(--wix-color-1)),calc(var(--wix-forms-formInputBackgroundColorHover-opacity, 1)*--wix-forms-formInputBackgroundColorHover-opacity)) inset"
+    },
+    ".sk_ESYz, .sk_ESYz": {
+      "color": "var(--ricosviewer2135568863-wix-forms-formLinkColor,rgba(var(--wix-color-8),1))"
+    },
+    ".sbSf9lT:focus-within .sWxB8IK, .sbSf9lT .sWxB8IK": {
+      "color": "rgb(var(--wix-ui-tpa-checkbox-hover-text-color,var(--wix-ui-tpa-checkbox-text-color,var(--wix-color-5))))"
+    },
+    ".sbSf9lT:focus-within.oBoGmWO--box, .sbSf9lT.oBoGmWO--box": {
+      "borderColor": "rgb(var(--wix-ui-tpa-checkbox-box-border-color,var(--wst-primary-background-color-rgb,var(--wix-color-5))))"
+    },
+    ".sbSf9lT.oBoGmWO--box:not(.oBoGmWO--checked) .swQcdFl": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-checkbox-input-hover-background-color-rgb,var(--wix-ui-tpa-checkbox-input-background-color-rgb,var(--Checkbox2267235356-transparent))),calc(var(--wix-ui-tpa-checkbox-input-hover-background-color-opacity, var(--wix-ui-tpa-checkbox-input-background-color-opacity, 1))*var(--wix-ui-tpa-checkbox-input-hover-background-opacity, var(--wix-ui-tpa-checkbox-input-background-opacity, 1))))"
+    },
+    ".sbSf9lT.oBoGmWO--box.oBoGmWO--disabled:focus-within:not(.oBoGmWO--checked), .sbSf9lT.oBoGmWO--box.sG96bot:not(:checked)": {
+      "borderColor": "rgb(var(--wix-ui-tpa-checkbox-box-border-color-rgb,var(--wix-color-5)),calc(var(--wix-ui-tpa-checkbox-box-border-color-opacity, 1)*.6))"
+    },
+    ".sbSf9lT:focus-within .swQcdFl, .sbSf9lT .swQcdFl": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-checkbox-input-hover-background-color-rgb,var(--wix-ui-tpa-checkbox-input-background-color-rgb,var(--wst-primary-background-color-rgb,var(--Checkbox2267235356-transparent)))),calc(var(--wix-ui-tpa-checkbox-input-hover-background-color-opacity, var(--wix-ui-tpa-checkbox-input-background-color-opacity, 1))*var(--wix-ui-tpa-checkbox-input-hover-background-opacity, var(--wix-ui-tpa-checkbox-input-background-opacity, 1))))",
+      "borderColor": "rgb(var(--wix-ui-tpa-checkbox-input-hover-border-color,var(--wix-ui-tpa-checkbox-border-color,var(--wix-color-5))))"
+    },
+    ".sbSf9lT.oBoGmWO--error:not(.oBoGmWO--checked):focus-within .swQcdFl, .sbSf9lT.oBoGmWO--error:not(.oBoGmWO--checked) .swQcdFl": {
+      "borderColor": "rgb(var(--wix-ui-tpa-checkbox-error-color-rgb,var(--Checkbox2267235356-default-error-color)),calc(var(--wix-ui-tpa-checkbox-error-color-opacity, 1)*.7))"
+    },
+    ".sbSf9lT.oBoGmWO--checked .swQcdFl": {
+      "backgroundColor": "rgb(var(--wix-ui-tpa-checkbox-input-hover-background-color-rgb,var(--wix-ui-tpa-checkbox-input-background-color-rgb,var(--Checkbox2267235356-transparent))),calc(var(--wix-ui-tpa-checkbox-input-hover-background-color-opacity, var(--wix-ui-tpa-checkbox-input-background-color-opacity, 1))*var(--wix-ui-tpa-checkbox-input-hover-background-opacity, var(--wix-ui-tpa-checkbox-input-background-opacity, 1))))"
+    },
+    "#comp-m3vumyh1 .style-m52ex8iv__root .StylableHorizontalMenu3372578893__scrollButton": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "boxShadow": "rgba(0, 0, 0, 0) -3px 3px 15px 3px",
+      "borderColor": "rgb(51, 51, 51)"
+    },
+    "#comp-m53umt7w .style-m53umt8w3__root .StylableHorizontalMenu3372578893__scrollButton": {
+      "backgroundColor": "rgb(51, 51, 51)",
+      "boxShadow": "rgba(0, 0, 0, 0) -3px 3px 15px 3px",
+      "borderColor": "rgb(51, 51, 51)"
+    },
+    ".MNUFxS a, .MNUFxS a:focus, .MNUFxS button, .MNUFxS button:focus": {
+      "opacity": "0.7"
+    },
+    ".kCHabv": {
+      "color": "rgb(203, 211, 220)"
+    },
+    ".BfPLBO:checked + .kCHabv": {
+      "color": "rgb(76, 76, 76)"
+    },
+    ".BfPLBO:checked + .kCHabv, .BfPLBO:checked + .kCHabv:active, .BfPLBO:checked + .kCHabv:active": {
+      "color": "rgb(0, 0, 0)"
+    },
+    ".BfPLBO:disabled + .kCHabv, .BfPLBO:disabled + .kCHabv, .BfPLBO:disabled + .kCHabv:active, .BfPLBO:disabled + .kCHabv:active": {
+      "color": "rgba(22, 45, 61, 0.1)"
+    },
+    ".SiFffK .jlHQeS, .SiFffK .jlHQeS:focus, .SiFffK .cRIX5Z, .SiFffK .cRIX5Z:focus": {
+      "opacity": "0.7"
+    },
+    ".eNBJB": {
+      "boxShadow": "rgb(17, 109, 255) 0px 0px 0px 1.5px"
+    },
+    "._-1WHA:not(._9Aj3N) .RO0hw, .csax5:not(._9Aj3N) .RO0hw": {
+      "opacity": "1"
+    }
+  },
+  "cssVariables": {},
+  "externalFonts": [
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: din-next-w01-light",
+    "font-face: helvetica-w01-light",
+    "font-face: helvetica-w01-light",
+    "font-face: helvetica-w01-roman",
+    "font-face: helvetica-w01-roman",
+    "font-face: helvetica-w01-roman",
+    "font-face: libre baskerville",
+    "font-face: libre baskerville"
+  ],
+  "portSectionStyles": [
+    {
+      "index": 0,
+      "heading": "Site header / navigation (port into Navigation.astro)",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "a",
+          "cls": "IT88M3",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 238)",
+          "fill": "rgb(186, 106, 255)",
+          "width": 159,
+          "height": 39,
+          "viewBox": "37.451 41.38 120.749 29.57",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "nav",
+          "cls": "StylableHorizontalMenu3372578893__root",
+          "text": "HomeServicesAboutContactInsights",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "Home",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "Home",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "Home",
+          "color": "rgb(0, 87, 225)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "Services",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "Services",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "Services",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "About",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "Contact",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "Contact",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "Contact",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "Insights",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "Insights",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "Insights",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "From Strategy to Implementation: Empowering Your Financial Services Company on t",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "div",
+          "cls": "LNYVZi",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(229, 240, 254)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "a",
+          "cls": "IT88M3",
+          "color": "rgb(0, 0, 238)",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 238)",
+          "fill": "rgb(186, 106, 255)",
+          "width": 159,
+          "height": 39,
+          "viewBox": "37.451 41.38 120.749 29.57",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "nav",
+          "cls": "StylableHorizontalMenu3372578893__root",
+          "text": "HomeServicesAboutContactInsights",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "Home",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "Home",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "Home",
+          "color": "rgb(0, 87, 225)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "Services",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "Services",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "Services",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "About",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "About",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "About",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "Contact",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "Contact",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "Contact",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "li",
+          "cls": "itemDepth02233374943__itemWrapper",
+          "text": "Insights",
+          "color": "rgb(0, 0, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "a",
+          "cls": "itemDepth02233374943__root",
+          "text": "Insights",
+          "color": "rgb(0, 0, 238)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "itemDepth02233374943__label",
+          "text": "Insights",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "16px",
+          "ownText": true,
+          "tracking": "0.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "h1",
+          "cls": "font_0",
+          "text": "From Strategy to Implementation: Empowering Your Financial Services Company on t",
+          "color": "rgb(32, 0, 85)",
+          "fontSize": "50px",
+          "ownText": true,
+          "leading": "65px",
+          "tracking": "1px",
+          "fontFamily": "libre baskerville",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "color_43",
+          "text": "From Strategy to Implementation: Empowering Your",
+          "color": "rgb(136, 136, 136)",
+          "fontSize": "50px",
+          "ownText": true,
+          "leading": "65px",
+          "tracking": "1px",
+          "fontFamily": "libre baskerville"
+        },
+        {
+          "tag": "span",
+          "cls": "color_43",
+          "text": "on the",
+          "color": "rgb(136, 136, 136)",
+          "fontSize": "50px",
+          "ownText": true,
+          "leading": "65px",
+          "tracking": "1px",
+          "fontFamily": "libre baskerville"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "Reach out to us today",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "18px",
+          "ownText": false,
+          "leading": "32.4px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Reach out to us today",
+          "color": "rgb(136, 136, 136)",
+          "fontSize": "18px",
+          "ownText": true,
+          "leading": "32.4px",
+          "tracking": "0.36px",
+          "fontFamily": "helvetica-w01-light"
+        },
+        {
+          "tag": "p",
+          "cls": "font_8",
+          "text": "⟶ Our solutions",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "28.8px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "⟶ Our solutions",
+          "color": "rgb(32, 0, 85)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "28.8px",
+          "fontFamily": "helvetica-w01-roman",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "⟶",
+          "color": "rgb(32, 0, 85)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "28.8px",
+          "tracking": "0.32px",
+          "fontFamily": "monoton"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Our solutions",
+          "color": "rgb(32, 0, 85)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "28.8px",
+          "tracking": "0.32px",
+          "fontFamily": "helvetica-w01-light"
+        },
+        {
+          "tag": "div",
+          "cls": "sN4uTVR",
+          "text": "Join our mailing listEmail*SubscribeI want to subscribe to your mailing list.",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "fontSize": "10px",
+          "ownText": false,
+          "fontFamily": "Arial"
+        },
+        {
+          "tag": "h1",
+          "cls": "VLNoM",
+          "text": "Join our mailing list",
+          "color": "rgb(32, 0, 85)",
+          "fontSize": "26px",
+          "ownText": false,
+          "widgetId": "content-viewer",
+          "leading": "39px",
+          "fontFamily": "libre baskerville",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "text": "Join our mailing list",
+          "color": "rgb(32, 0, 85)",
+          "fontSize": "26px",
+          "ownText": true,
+          "widgetId": "content-viewer",
+          "leading": "39px",
+          "fontFamily": "libre baskerville"
+        },
+        {
+          "tag": "span",
+          "cls": "sHbjjkq",
+          "text": "*",
+          "color": "rgb(136, 136, 136)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "20px",
+          "fontFamily": "libre baskerville"
+        },
+        {
+          "tag": "div",
+          "cls": "siLSxkt",
+          "color": "rgb(0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "border": "2px solid rgb(136, 136, 136)",
+          "fontSize": "16px"
+        },
+        {
+          "tag": "button",
+          "cls": "sSDugAA",
+          "text": "Subscribe",
+          "color": "rgb(136, 136, 136)",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "border": "2px solid rgb(136, 136, 136)",
+          "fontSize": "16px",
+          "ownText": false,
+          "leading": "20.8px",
+          "fontFamily": "libre baskerville",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "sxIoeeE",
+          "text": "Subscribe",
+          "color": "rgb(136, 136, 136)",
+          "fontSize": "16px",
+          "ownText": true,
+          "leading": "19.2px",
+          "fontFamily": "libre baskerville"
+        },
+        {
+          "tag": "span",
+          "cls": "swQcdFl",
+          "color": "rgb(0, 0, 0)",
+          "border": "2px solid rgb(136, 136, 136)",
+          "fontSize": "13px"
+        },
+        {
+          "tag": "p",
+          "cls": "_7d56m",
+          "text": "I want to subscribe to your mailing list.",
+          "color": "rgb(136, 136, 136)",
+          "fontSize": "16px",
+          "ownText": false,
+          "widgetId": "content-viewer",
+          "leading": "24px",
+          "fontFamily": "libre baskerville"
+        },
+        {
+          "tag": "span",
+          "text": "I want to subscribe to your mailing list.",
+          "color": "rgb(136, 136, 136)",
+          "fontSize": "16px",
+          "ownText": true,
+          "widgetId": "content-viewer",
+          "leading": "24px",
+          "fontFamily": "libre baskerville"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Site footer (port into Footer.astro)",
+      "background": "rgb(255, 255, 255)",
+      "elements": [
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "© Abrany, Ltd",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "14px",
+          "ownText": false,
+          "leading": "19.6px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "© Abrany, Ltd",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "tracking": "0.7px",
+          "fontFamily": "helvetica-w01-light"
+        },
+        {
+          "tag": "svg",
+          "color": "rgb(0, 0, 0)",
+          "fill": "rgb(186, 106, 255)",
+          "width": 112,
+          "height": 27,
+          "viewBox": "37.451 41.38 120.749 29.57",
+          "fontSize": "10px"
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "Privacy policy",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "14px",
+          "ownText": false,
+          "leading": "19.6px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy policy",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "14px",
+          "ownText": false,
+          "leading": "19.6px",
+          "fontFamily": "helvetica-w01-roman",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Privacy policy",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "tracking": "0.7px",
+          "fontFamily": "helvetica-w01-light"
+        },
+        {
+          "tag": "p",
+          "cls": "font_9",
+          "text": "Sitemap",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "14px",
+          "ownText": false,
+          "leading": "19.6px",
+          "fontFamily": "helvetica-w01-roman"
+        },
+        {
+          "tag": "a",
+          "cls": "wixui-rich-text__text",
+          "text": "Sitemap",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "14px",
+          "ownText": false,
+          "leading": "19.6px",
+          "fontFamily": "helvetica-w01-roman",
+          "textTransform": "none"
+        },
+        {
+          "tag": "span",
+          "cls": "wixui-rich-text__text",
+          "text": "Sitemap",
+          "color": "rgb(51, 51, 51)",
+          "fontSize": "14px",
+          "ownText": true,
+          "leading": "19.6px",
+          "tracking": "0.7px",
+          "fontFamily": "helvetica-w01-light"
+        }
+      ]
+    }
+  ],
+  "imageTreatments": [],
+  "renderedSurfaces": [
+    {
+      "selector": "#bgImg_comp-kcyjsm6h",
+      "mediaKind": "css-background",
+      "image": "https://static.wixstatic.com/media/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png/v1/crop/x_0,y_0,w_983,h_900,q_90,enc_auto/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png",
+      "baseColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "url(\"https://static.wixstatic.com/media/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png/v1/crop/x_0,y_0,w_983,h_900,q_90,enc_auto/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png\")",
+      "backgroundSize": "auto",
+      "backgroundPosition": "50% 50%",
+      "layers": [],
+      "observation": "no-additional-layer-observed"
+    }
+  ],
+  "floatingOverlays": [],
+  "positionedOverlays": [],
+  "captureViewport": 1920,
+  "hiddenImages": [],
+  "elementorStylesheets": []
+}

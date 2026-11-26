@@ -1,0 +1,195 @@
+/* Imported brand fonts — self-hosted from public/fonts/ */
+
+@font-face {
+  font-family: 'helvetica-w01-roman';
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: u+0,u+d,u+20-7e,u+a0,u+a4,u+a6-a7,u+a9,u+ab-ae,u+b0-b1,u+b5-b7,u+bb,u+401-40c,u+40e-44f,u+451-45c,u+45e-45f,u+490-491,u+2013-2014,u+2018-201a,u+201c-201e,u+2020-2022,u+2026,u+2030,u+2039-203a,u+20ac,u+2116,u+2122;
+  font-display: swap;
+  src: url('/fonts/helvetica-w01-roman-400-820c74a4.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'helvetica-w01-roman';
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: u+d,u+20-7e,u+a0-12b,u+12e-137,u+139-149,u+14c-17e,u+192,u+218-21b,u+237,u+2c6-2c7,u+2c9,u+2d8-2dd,u+394,u+3a9,u+3bc,u+3c0,u+2013-2014,u+2018-201a,u+201c-201e,u+2020-2022,u+2026,u+2030,u+2039-203a,u+2044,u+20ac,u+2113,u+2122,u+2126,u+212e,u+2202,u+2206,u+220f,u+2211-2212,u+2215,u+2219-221a,u+221e,u+222b,u+2248,u+2260,u+2264-2265,u+25ca,u+e301-e304,u+e306-e30d,u+fb01-fb02;
+  font-display: swap;
+  src: url('/fonts/helvetica-w01-roman-400-4fb3ec1c.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'helvetica-w01-roman';
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: u+0,u+d,u+20-7e,u+a0-12b,u+12e-137,u+139-149,u+14c-17e,u+192,u+218-21b,u+237,u+2c6-2c7,u+2c9,u+2d8-2dd,u+394,u+3a9,u+3bc,u+3c0,u+401-40c,u+40e-44f,u+451-45c,u+45e-45f,u+462-463,u+472-475,u+490-491,u+4d9,u+1e9e,u+2013-2014,u+2018-201a,u+201c-201e,u+2020-2022,u+2026,u+2030,u+2039-203a,u+2044,u+20ac,u+20b9-20ba,u+20bc-20bd,u+2113,u+2116,u+2122,u+2126,u+212e,u+2202,u+2206,u+220f,u+2211-2212,u+2215,u+2219-221a,u+221e,u+222b,u+2248,u+2260,u+2264-2265,u+25ca,u+e300-e30d,u+f6c5,u+f6c9-f6d8,u+f8ff,u+fb01-fb02;
+  font-display: swap;
+  src: url('/fonts/helvetica-w01-roman-400-fcdfd6f1.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'helvetica-w01-light';
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: u+100-12b,u+12e-137,u+139-149,u+14c-151,u+154-15f,u+162-177,u+179-17c,u+218-21b,u+237,u+2c7,u+2c9,u+2d8-2db,u+2dd,u+394,u+3a9,u+3bc,u+3c0,u+2044,u+2113,u+2126,u+212e,u+2202,u+2206,u+220f,u+2211-2212,u+2215,u+2219-221a,u+221e,u+222b,u+2248,u+2260,u+2264-2265,u+25ca,u+e002,u+e004,u+e006,u+e008-e009,u+e00d,u+e00f,u+e011,u+e013,u+e015,u+e017,u+e01a,u+fb01-fb02;
+  font-display: swap;
+  src: url('/fonts/helvetica-w01-light-400-2be90a76.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'helvetica-w01-light';
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: u+d,u+20-7e,u+a0-ff,u+152-153,u+160-161,u+178,u+17d-17e,u+192,u+2c6,u+2dc,u+2013-2014,u+2018-201a,u+201c-201e,u+2020-2022,u+2026,u+2030,u+2039-203a,u+20ac,u+2122;
+  font-display: swap;
+  src: url('/fonts/helvetica-w01-light-400-f0e5c278.woff2') format('woff2');
+}
+
+/* Registry fonts the imported page renders — served from /_pagesmith/fonts/ */
+
+@font-face {
+  font-family: 'libre baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/libre-baskerville-400-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'libre baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/libre-baskerville-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'libre baskerville';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/libre-baskerville-400-italic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'libre baskerville';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/libre-baskerville-400-italic.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Pagesmith platform fonts — served from /_pagesmith/fonts/* via dispatcher.
+   Edit this file to change typography. Never import from fonts.googleapis.com. */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-400-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-600-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-600.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-700-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-700.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-400-italic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-400-italic.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-600-italic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-600-italic.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-700-italic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/_pagesmith/fonts/inter-700-italic.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

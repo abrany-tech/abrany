@@ -1,0 +1,115 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const title = 'About us | Abrany';
+const description =
+  'Empower your financial institution with strategic solutions tailored for growth and customer loyalty. From product consulting to go-to-market strategies, we deliver impactful campaigns, optimize customer engagement, and drive measurable results in today’s competitive financial landscape.';
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="about-page" aria-labelledby="about-title" data-ps="src/pages/about.astro:ks8f5u">
+    <div class="about-inner" data-ps="src/pages/about.astro:txwtwr">
+      <h1 id="about-title" class="about-title" data-ps="src/pages/about.astro:ivxtwx">About us</h1>
+
+      <div class="about-grid" data-ps="src/pages/about.astro:txwtws">
+        <h2 class="about-lead" data-ps="src/pages/about.astro:iew6s0">
+          <span class="about-lead-muted" data-ps="src/pages/about.astro:6ovv7d">At Abrany we help build tomorrow's </span>success <span class="about-lead-muted" data-ps="src/pages/about.astro:6ovv7e">stories by applying our </span>expertise, passion, and curiosity.
+        </h2>
+
+        <div class="about-body" data-ps="src/pages/about.astro:txwtwt">
+          <p data-ps="src/pages/about.astro:uw7hb">In today’s rapidly evolving landscape, staying competitive requires more than just innovative products—it demands a robust product and market strategy, seamless execution, and meaningful customer engagement.</p>
+          <p data-ps="src/pages/about.astro:uw7ha">Financial institutions face unique challenges, from regulatory complexities to shifting customer expectations, making it imperative to have a strategic partner who can help navigate these demands while driving growth and customer loyalty.</p>
+          <p data-ps="src/pages/about.astro:iawiue">Our mission is to empower financial institutions with end-to-end solutions designed to create impactful strategies and achieve measurable results. We specialize in product consulting, leveraging our expertise to refine and optimize financial products for relevance, competitiveness, and customer appeal.</p>
+          <p data-ps="src/pages/about.astro:iawiuf">Through strategic planning, we collaborate closely with stakeholders to define clear objectives, craft comprehensive go-to-market plans, and ensure alignment with organizational goals and market trends. Our campaign management services deliver expertly executed initiatives that resonate with target audiences, leveraging multi-channel approaches to maximize reach and impact.</p>
+          <p data-ps="src/pages/about.astro:iawiug">By combining a deep understanding of the financial sector with advanced tools and data-driven methodologies, we help institutions achieve cost-efficient customer acquisition and sustainable retention. Our approach focuses on integrating customer insights, market intelligence, and innovative solutions to foster loyalty and embed customers into a continuous loyalty loop.</p>
+          <p data-ps="src/pages/about.astro:iawiuh">Whether it’s launching a new product, entering a new market, or optimizing customer engagement strategies, we are committed to being a trusted partner, delivering results that not only meet but exceed expectations in the complex and competitive world of financial services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .about-page {
+    background-color: transparent;
+    background-image: url("https://static.wixstatic.com/media/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png/v1/crop/x_0,y_21,w_983,h_858,q_90,enc_auto/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png");
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center center;
+    padding: 40px 16px 110px;
+  }
+
+  .about-inner {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .about-title {
+    margin: 0;
+    font-family: var(--font-heading);
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 1px;
+    color: var(--color-primary);
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 380px) minmax(0, 566px);
+    column-gap: 29px;
+    margin-top: 40px;
+    align-items: start;
+  }
+
+  .about-lead {
+    margin: 0;
+    font-family: var(--font-heading);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28.6px;
+    letter-spacing: 0.44px;
+    color: var(--color-primary);
+  }
+
+  .about-lead-muted {
+    color: hsl(0 0% 35%);
+  }
+
+  .about-body {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 21px;
+    color: #444444;
+  }
+
+  .about-body p {
+    margin: 0 0 21px;
+  }
+
+  .about-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 767px) {
+    .about-page {
+      padding-top: 32px;
+    }
+
+    .about-title {
+      font-size: 36px;
+      line-height: 46px;
+    }
+
+    .about-grid {
+      grid-template-columns: minmax(0, 1fr);
+      row-gap: 28px;
+      margin-top: 28px;
+    }
+
+    .about-lead {
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+</style>

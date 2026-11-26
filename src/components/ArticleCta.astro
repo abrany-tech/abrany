@@ -1,0 +1,17 @@
+---
+interface Props {
+  title: string;
+  text: string;
+  variant?: 'blue' | 'lilac' | 'slate';
+  href?: string;
+  label?: string;
+}
+
+const { title, text, variant = 'blue', href = '/contact/', label = 'Contact us' } = Astro.props;
+---
+
+<div class:list={['abrany-cta', variant === 'lilac' ? 'abrany-cta-lilac' : variant === 'slate' ? 'abrany-cta-slate' : 'abrany-cta-blue']} data-ps="src/components/ArticleCta.astro:v5dovw">
+  <h3 data-ps="src/components/ArticleCta.astro:mavwcj">{title}</h3>
+  <p data-ps="src/components/ArticleCta.astro:qnqw8s">{text}</p>
+  <a class="abrany-cta-button" href={href} data-ps="src/components/ArticleCta.astro:qw049l">{label}</a>
+</div>

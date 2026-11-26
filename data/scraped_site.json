@@ -1,0 +1,176 @@
+{
+  "success": true,
+  "url": "https://www.abrany.com/",
+  "structured": {
+    "title": "Abrany - Driving Success for Financial Services",
+    "description": "Discover how Abrany empowers your financial services company with tailored marketing strategies and seamless implementation. Achieve sustainable growth and long-term success with expert guidance.",
+    "url": "https://www.abrany.com/",
+    "imageCount": 3,
+    "branding": {
+      "colors": {
+        "primary": "#0057E1",
+        "accent": "#116DFF",
+        "background": "#FFFFFF",
+        "textPrimary": "#333333",
+        "link": "#0057E1"
+      },
+      "typography": {
+        "fontFamilies": {
+          "primary": "Arial",
+          "heading": "Libre Baskerville"
+        },
+        "fontStacks": {
+          "heading": [
+            "Libre Baskerville",
+            "serif"
+          ],
+          "body": [
+            "Arial",
+            "Helvetica",
+            "sans-serif"
+          ],
+          "paragraph": [
+            "Helvetica",
+            "sans-serif"
+          ]
+        },
+        "fontSizes": {
+          "h1": "50px",
+          "h2": "50px",
+          "body": "18px"
+        }
+      },
+      "spacing": {
+        "baseUnit": 10,
+        "borderRadius": "8px"
+      },
+      "logo": "[SVG data URI - extract from HTML]",
+      "favicon": "https://static.wixstatic.com/media/89a094_ca0167faa2fb4e7bbff3704ec7dc8a0c%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/89a094_ca0167faa2fb4e7bbff3704ec7dc8a0c%7Emv2.png",
+      "faviconCdn": "https://pagesmith-cdn.com/b8f1e60d/images/89a094_ca0167faa2fb4e7bbff3704ec7dc8a0c~mv2-987e29-192.webp"
+    },
+    "pages": [
+      {
+        "slug": "index",
+        "path": "/",
+        "title": "Abrany - Driving Success for Financial Services",
+        "file": "data/pages/index.md"
+      }
+    ],
+    "availablePages": [
+      {
+        "path": "/services/",
+        "label": "Services",
+        "slug": "services",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/about/",
+        "label": "About",
+        "slug": "about",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/contact/",
+        "label": "Contact",
+        "slug": "contact",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/insights/",
+        "label": "Insights",
+        "slug": "insights",
+        "scraped": false,
+        "group": "main"
+      },
+      {
+        "path": "/how-to-win-ai-search/",
+        "label": "How To Win Ai Search",
+        "slug": "how-to-win-ai-search",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/top-10-seo-secrets-for-fintech/",
+        "label": "Top 10 Seo Secrets For Fintech",
+        "slug": "top-10-seo-secrets-for-fintech",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/crypto-exchange-customer-acquisition/",
+        "label": "Crypto Exchange Customer Acquisition",
+        "slug": "crypto-exchange-customer-acquisition",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/marketing-agency-fintech/",
+        "label": "Marketing Agency Fintech",
+        "slug": "marketing-agency-fintech",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/privacy-policy/",
+        "label": "Privacy Policy",
+        "slug": "privacy-policy",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/email-marketing-financial-services/",
+        "label": "Email Marketing Financial Services",
+        "slug": "email-marketing-financial-services",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/content-marketing-fintech/",
+        "label": "Content Marketing Fintech",
+        "slug": "content-marketing-fintech",
+        "scraped": false,
+        "group": "other"
+      },
+      {
+        "path": "/fintech-customer-acquisition/",
+        "label": "Fintech Customer Acquisition",
+        "slug": "fintech-customer-acquisition",
+        "scraped": false,
+        "group": "other"
+      }
+    ],
+    "siteStructure": {
+      "mainNavPaths": [
+        "/services/",
+        "/about/",
+        "/contact/",
+        "/insights/"
+      ],
+      "footerPaths": [
+        "/privacy-policy/"
+      ],
+      "otherLanguageRoots": []
+    },
+    "pageInventory": "4 main navigation pages; 8 other pages"
+  },
+  "metadata": {
+    "scraper": "firecrawl-crawl-endpoint",
+    "timestamp": "2026-11-26T06:11:18.707Z",
+    "homepageContentLength": 793,
+    "imageCount": 3,
+    "hasBranding": true,
+    "hasElementorEnrichment": false,
+    "hasVisibleIr": false,
+    "pagesDiscovered": 12,
+    "pagesScraped": 1,
+    "screenshotUrl": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-5914313d-bb97-4c8b-93d4-67d5f64b0771.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1796278268&Signature=HP3uSZI3%2BIxYB9mU%2F7ONGnHCKCce69qnY4OQF5GCfukHT6FdJhEFuNrA2pa1R9nURLprsNDI8%2Fr1p%2FvH4PWt0hW5HAQHyaNvz5b4Nq4mF5t5%2BqxyKbHcRLMMg3MlqN%2Fh%2FU%2FhAB9nBiS9if%2Fh8HIZ1e4PiB5%2F3KYPTC%2Bsq8uj5dXeOtftZG1PWZ91gYUMD3yhMuKqCbsAWBKUpEE9Ujxomq0ZCR%2Ft14pLbqk2AtP9KtXurlxCwMU9ZIn6GMyW790DPRDoMn0nCYlWcsUYfbeuVu7SobRQltFCqV30aym628xw%2B4273jXYAiHXW2LEqAxTQNf7eISShkzGjVexRYe20g%3D%3D",
+    "viewportScreenshots": [
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-d9961db6-9917-404e-9e6f-f14fd5d801ad.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1796278268&Signature=aOXg76GhTpCWujshyu%2FQxQVGopKIkEsyF1t3TdA501ChTRvZH%2BkE6GsW%2BFrh0%2BAAUJEB4pNad8vLpFofUE%2FWGx1zaWmq5WpcATej6CjzyKCYjKLyFZ3BXGi4obQyEOXeNqSortY3212BXDR9xnYIDM1ziT%2Bwlkf0IGN3MXUZxdxQh0DYcafVZqb0qjkpkXHEBWRQeUUIMLW%2FJQOrhAeNtvxS6W%2FVVK4Gzskm3Kq%2FiP6MKUgs42u0AOw8d%2BRUMnUMVVTj17jJV%2FPDTU%2F8lkhKhfCaqb6CzKVgZNMOsSktJlRxAo1ynbXO21Xol2rnTwXFB6ObJXllxB%2BTAKDVr21DuA%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-d3af8e0e-a9ac-4fd2-bd1e-42727830d5ed.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1796278272&Signature=OtCIcOlP1JiDSPsv8PinRYahN8CuJDxca489SCpRqJ2SaphIAJgaNY6FqqPCV37TK0QUdLS1vOyOmeHiqnLd%2FjxOBSCbMsApGMOC362l3YbOUscEEhADv4WrVjseiXqC8TjnSnYeyE4ZLPM9Chw2Fbu%2BUHvAXr5W4T2EYE3zlP46X8ccPSRCj9QRaOv9nn8JA71qun7mLW%2Bm6maskK0rR040SfXX1vgBz%2FlJoC6Lr0dBHGhEOYB4qb1TQFL8VnbRUFaOpx1mNMFH1LCk2MdatZ96gCmaFfJa0NWFRCxhmqxVj4cpLXv4qqIMYPjzH16YREk3VWcSmbio6tUO1XOF8w%3D%3D",
+      "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-b2c074bc-ae6e-4b07-bb7c-2b585dce1239.png?GoogleAccessId=fire-engine%40firecrawl.iam.gserviceaccount.com&Expires=1796278275&Signature=PxIWhmZa%2BnSeNdBZVij6Bo1R66H7Z%2FUa3rDbiWw13oWL2TrHD3tDaEs05gH0uyREQaSNkYYLwFP5vWAFo27J2QmzSqR8geYh8ROyz67YE8TIQwza7XN8E7wcPnDsqKUUWMtwYgdmN5TooA4gv5Hf95Uprlktem7Zs%2FH43oVvroQiR3N%2FG%2FSwaRw%2FH06X8IKgHAhjPzrjrJE37vlvRnx2LJnLicZYxjwMIJg016EBtQDAyUrjmoZqAqXlJC5sGEOGfJqJR2XIdjnbZu5hutILgniid%2FR0eaBd5b46kC3pSVvX9Lk13RxoiciWuGPTRicLByxGhMoVQ%2FHr8OwOz2tHxQ%3D%3D"
+    ]
+  }
+}

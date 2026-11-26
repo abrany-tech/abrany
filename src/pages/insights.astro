@@ -1,0 +1,62 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const articles: Array<{
+  image: string;
+  width: number;
+  height: number;
+  imageHref?: string;
+  title: string;
+  href: string;
+}> = [];
+---
+
+<BaseLayout
+  title="Insights | Abrany"
+  description="Discover industry insights to stay on the edge of marketing for financial services."
+  headerVariant="transparent"
+>
+  <main class="bg-background" data-ps="src/pages/insights.astro:45xfwo">
+    <section class="mx-auto w-full max-w-[974px] px-6 pt-28 pb-24 lg:px-0" data-ps="src/pages/insights.astro:r4vex5">
+      <h1 class="font-heading mb-12 text-[2rem] leading-tight tracking-[1px] text-primary md:text-[50px] md:leading-[65px]" data-ps="src/pages/insights.astro:rw6oqd">
+        Insights
+      </h1>
+
+      <ul class="grid grid-cols-1 gap-x-[38px] gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+        {articles.map((article, index) => (
+          <li class="flex min-w-0 flex-col" data-ps={`src/pages/insights.astro:1l1dm2-${index}`}>
+            {article.imageHref ? (
+              <a href={article.imageHref} class="block" data-ps={`src/pages/insights.astro:szgbp2-${index}`}>
+                <div class="aspect-[301/316] w-full overflow-hidden" data-ps={`src/pages/insights.astro:jqkueq-${index}`}>
+                  <img
+                    src={article.image}
+                    width={article.width}
+                    height={article.height}
+                    alt={article.title}
+                    loading={index === 0 ? 'eager' : 'lazy'}
+                    fetchpriority={index === 0 ? 'high' : undefined}
+                    class="h-full w-full object-cover" data-ps={`src/pages/insights.astro:a4o48m-${index}`} />
+                </div>
+              </a>
+            ) : (
+              <div class="aspect-[301/316] w-full overflow-hidden" data-ps={`src/pages/insights.astro:jqkuer-${index}`}>
+                <img
+                  src={article.image}
+                  width={article.width}
+                  height={article.height}
+                  alt={article.title}
+                  loading="lazy"
+                  class="h-full w-full object-cover" data-ps={`src/pages/insights.astro:a4o48l-${index}`} />
+              </div>
+            )}
+            <h3 class="mt-6 font-sans text-[1.25rem] leading-7" data-ps={`src/pages/insights.astro:qy3egk-${index}`}>
+              <a href={article.href} class="text-primary underline underline-offset-2 hover:text-secondary" data-ps={`src/pages/insights.astro:szgbp1-${index}`}>
+                {article.title}
+              </a>
+            </h3>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

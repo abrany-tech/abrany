@@ -1,0 +1,113 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const pageTitle = 'Abrany | Services';
+const pageDescription =
+  'Transform your finance brand with strategies rooted in creativity and market insight. We craft authentic identities, tailored positioning strategies, and impactful messaging that resonate with your audience, driving growth and competitive advantage in the financial sector.';
+
+const backgroundImage =
+  'https://static.wixstatic.com/media/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png/v1/crop/x_0,y_0,w_983,h_900,q_90,enc_auto/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2.png';
+
+const services = [
+  {
+    title: 'Strategic Planning and Market Positioning',
+    paragraphs: [
+      "Shaping and positioning a brand in the finance sector demands a blend of ingenuity, creativity, and strategic thinking. Our expertise lies in crafting unique brand identities that are authentic, impactful, and aligned with the financial industry's dynamic market landscape. We design tailored strategies to highlight your brand's strengths, ensuring a powerful connection with your target audience.",
+      'Our process starts with a thorough analysis of your brand, market conditions, and audience preferences. Leveraging advanced market research techniques, we uncover trends and pinpoint growth opportunities. From there, we develop a positioning strategy that clearly communicates your core messages and brand values, resonating effectively with your audience.',
+      'For example, we recently led a comprehensive repositioning for a fintech company. Following our strategic intervention, the company experienced a 40% increase in brand recognition, securing a significant competitive advantage and expanding its leadership in the market.',
+    ],
+  },
+  {
+    title: 'Digital Marketing Strategy',
+    paragraphs: [
+      'The fast-evolving digital landscape demands agile and adaptive marketing strategies, especially in finance and fintech. We provide expert guidance on digital marketing strategies designed to optimize your online presence and connect with your target audience across diverse digital channels.',
+      'Our approach blends data-driven insights with creative content creation. We identify the most impactful channels and formats to engage your audience, crafting customized digital campaigns that drive engagement and maximize conversions.',
+      'For instance, we developed an integrated digital marketing campaign for a mid-sized financial services company. By focusing on social media and targeted email marketing, the campaign achieved a remarkable 30% increase in online sales within six months.',
+    ],
+  },
+  {
+    title: 'Digital Transformation',
+    paragraphs: [
+      'Digital transformation is revolutionizing the finance and fintech sectors, reshaping operations, customer engagement, and innovation. Our consulting services empower companies to adopt advanced digital technologies and processes, driving efficiency, enhancing customer interactions, and fostering innovation.',
+      'We begin by assessing your current digital landscape to pinpoint areas for improvement. From there, we design and implement strategies that ensure seamless digital integration, enabling your business to thrive in a competitive market.',
+      'For example, our guidance facilitated a successful digital transformation for a financial services firm. This led to a 30% increase in operational efficiency and significantly enhanced customer satisfaction, solidifying their position as a market leader.',
+    ],
+  },
+  {
+    title: 'Data-Driven Marketing',
+    paragraphs: [
+      'In the finance sector, data-driven marketing is essential for making informed decisions that drive success. Our expertise lies in leveraging data to create precise, impactful marketing strategies that resonate with your target audience.',
+      'We utilize advanced data collection and analysis techniques to gain deep insights into customer behavior, financial market trends, and industry opportunities. These insights form the foundation of customized marketing campaigns designed to meet the specific needs and preferences of your audience, driving engagement and conversions.',
+      'For example, after implementing our data-driven personalization strategies, a financial services provider achieved a 35% increase in customer acquisition and retention, showcasing the power of tailored, data-informed marketing campaigns.',
+    ],
+  },
+  {
+    title: 'Content Marketing',
+    paragraphs: [
+      'In the highly regulated sectors such as finance, impactful content marketing is essential for building trust, educating audiences, and driving engagement. Our content marketing services are tailored specifically for financial institutions, helping them create valuable, industry-relevant content that resonates with their target audience and supports business growth.',
+      'We develop data-driven content strategies, focusing on high-quality blog posts, whitepapers, case studies, and multimedia content. By addressing key industry trends and customer pain points, we help financial brands establish thought leadership, increase online visibility, and drive meaningful interactions.',
+      'Recently, our content marketing efforts enabled a wealth management firm to double their audience engagement and generate 40% more qualified leads in just six months, enhancing their reputation as a trusted resource in the financial space.',
+    ],
+  },
+  {
+    title: 'SEO',
+    paragraphs: [
+      'Strong online presence is critical for success of any business. Our SEO services are designed specifically for financial institutions, helping them improve search engine visibility, attract qualified leads, and establish authority in the digital marketplace.',
+      'We employ advanced keyword research, content optimization, and technical SEO strategies tailored to the unique needs of financial businesses. By analyzing industry trends and audience behavior, we create SEO campaigns that increase organic traffic, improve search rankings, and drive high-value customer engagement.',
+      'For instance, our SEO strategy helped a crypto exchange platform achieve a 50% increase in organic website traffic and a significant boost in lead generation within six months, solidifying their position as a trusted industry leader.',
+    ],
+  },
+  {
+    title: 'PPC Advertising',
+    paragraphs: [
+      'Effective targeting and measurable outcomes are essential for driving growth. Our PPC advertising services are designed to help financial institutions achieve maximum ROI through data-driven strategies and advanced targeting techniques.',
+      'We create and manage customized pay-per-click campaigns on platforms like Google Ads, LinkedIn, and social media. By focusing on relevant keywords, audience segmentation, and compelling ad creatives, we drive qualified traffic, boost conversions, and optimize your ad spend.',
+      'For example, our PPC strategy helped a fintech startup reduce cost-per-acquisition by 25% while increasing lead volume by 40% in three months, positioning them for sustained growth in a competitive market.',
+    ],
+  },
+  {
+    title: 'Email Marketing',
+    paragraphs: [
+      'Email marketing is a powerful tool for building relationships, nurturing leads, and driving conversions. Our email marketing services are tailored to help financial institutions create impactful campaigns that resonate with their target audience and deliver measurable results.',
+      'We specialize in crafting personalized email campaigns, including newsletters, promotional offers, and cold outreach. By leveraging audience segmentation, A/B testing, and compelling content, we ensure every email engages recipients and drives action. Our strategies are designed to build trust, increase customer retention, and generate high-quality leads.',
+      'For example, our targeted email campaigns helped an investment firm achieve a 45% increase in client engagement and a 30% boost in lead conversion rates within four months, establishing a stronger pipeline for growth.',
+    ],
+  },
+  {
+    title: 'AI-Powered Marketing Automation',
+    paragraphs: [
+      'Marketing automation is essential for streamlining processes, improving efficiency, and driving personalized customer engagement. Our marketing automation services harness the power of AI to help financial institutions optimize campaigns, nurture leads, and achieve better results with less effort.',
+      'We implement AI-driven tools to automate repetitive tasks like email workflows, lead scoring, and customer segmentation. By analyzing customer data in real-time, our solutions enable personalized interactions and predictive insights, ensuring campaigns reach the right audience at the right time.',
+      'For instance, our AI-powered automation strategy helped a digital banking firm increase lead conversion rates by 50% and reduce manual marketing efforts by 40%, allowing their team to focus on strategic growth initiatives.',
+    ],
+  },
+];
+---
+
+<BaseLayout headerVariant="transparent" title={pageTitle} description={pageDescription}>
+  <div
+    class="min-h-screen bg-background"
+    style={`background-image: url("${backgroundImage}"); background-size: auto; background-position: 50% 50%; background-repeat: repeat;`}
+   data-ps="src/pages/services.astro:on4k2b">
+    <div class="mx-auto w-full max-w-[980px] px-6 pt-44 pb-24 md:pt-64 md:pb-32" data-ps="src/pages/services.astro:on4k2a">
+      <h1 class="font-heading text-[50px] leading-[65px] tracking-[1px] text-primary max-md:text-[36px] max-md:leading-[46px]" data-ps="src/pages/services.astro:l71k6r">
+        Our Services
+      </h1>
+
+      <div class="mt-16 md:mt-24" data-ps="src/pages/services.astro:on4k29">
+        {
+          services.map((service, __psIdx) => (
+            <section class="mb-20 grid gap-6 md:mb-28 md:grid-cols-[0.42fr_0.58fr] md:gap-0" data-ps={`src/pages/services.astro:3fuax0-${__psIdx}`}>
+              <h2 class="font-heading pr-8 text-[22px] leading-[30px] text-primary" data-ps={`src/pages/services.astro:kpzx1u-${__psIdx}`}>{service.title}</h2>
+              <div class="space-y-6 text-[15px] leading-[1.5] text-[#444444]" data-ps={`src/pages/services.astro:on4k28-${__psIdx}`}>
+                {service.paragraphs.map((paragraph, __psIdx2) => (
+                  <p data-ps={`src/pages/services.astro:nget5h-${__psIdx2}`}>{paragraph}</p>
+                ))}
+              </div>
+            </section>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</BaseLayout>

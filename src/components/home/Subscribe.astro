@@ -1,0 +1,76 @@
+---
+// Mailing list block from the captured page. The form fields match the source;
+// submission is not connected yet.
+---
+
+<section class="mx-auto mt-[330px] w-full max-w-[1020px] px-[20px] pb-[150px]" data-ps="src/components/home/Subscribe.astro:y08ws2">
+  <div class="md:pl-[24px]" data-ps="src/components/home/Subscribe.astro:f3kbqd">
+    <h2 class="font-heading text-[26px] leading-[39px] text-primary" data-ps="src/components/home/Subscribe.astro:yx8u9t">Join our mailing list</h2>
+    <form id="subscribe-form" aria-label="Subscribe Form" class="mt-[18px] max-w-[884px]">
+      <input type="hidden" name="_formId" value="mailing-list" />
+      <label for="subscribe-email" class="font-heading block text-[16px] leading-[20px] text-muted-foreground" data-ps="src/components/home/Subscribe.astro:b7caya">Email <span aria-hidden="true" data-ps="src/components/home/Subscribe.astro:sm2q67">*</span></label>
+      <div class="mt-[8px] flex flex-wrap items-start gap-[12px]" data-ps="src/components/home/Subscribe.astro:f3kbqc">
+        <input id="subscribe-email" type="email" name="email" required autocomplete="email" class="h-[38px] w-[353px] max-w-full border-0 border-b-2 border-muted-foreground bg-transparent text-[16px] text-foreground outline-none focus:border-primary" />
+        <button type="submit" class="font-heading h-[45px] w-[171px] shrink-0 border-2 border-muted-foreground bg-transparent text-[16px] text-muted-foreground hover:text-primary" data-ps="src/components/home/Subscribe.astro:ofztfi">Subscribe</button>
+      </div>
+      <label class="font-heading mt-[32px] flex items-start gap-[10px] text-[16px] leading-[24px] text-muted-foreground" data-ps="src/components/home/Subscribe.astro:b7cay9">
+        <input type="checkbox" name="subscribe" class="mt-[5px] h-[16px] w-[16px] shrink-0 border-2 border-muted-foreground" />
+        <span data-ps="src/components/home/Subscribe.astro:sm2q68">I want to subscribe to your mailing list.</span>
+      </label>
+      <altcha-widget
+        challenge="/psapi-internal-v1/altcha/challenge"
+        display="invisible"
+        auto="onfocus"
+      ></altcha-widget>
+      <p id="subscribe-status" role="status" aria-live="polite" class="mt-[16px] hidden font-heading text-[16px] leading-[24px]" data-ps="src/components/home/Subscribe.astro:gec74u"></p>
+    </form>
+  </div>
+</section>
+
+<script>
+  import 'altcha';
+
+  const form = document.getElementById('subscribe-form') as HTMLFormElement | null;
+  const status = document.getElementById('subscribe-status') as HTMLParagraphElement | null;
+
+  const showStatus = (message: string, tone: 'success' | 'error') => {
+    if (!status) return;
+    status.textContent = message;
+    status.className = `mt-[16px] font-heading text-[16px] leading-[24px] ${tone === 'success' ? 'text-primary' : 'text-red-700'}`;
+  };
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement | null;
+    if (submitBtn) submitBtn.disabled = true;
+
+    const data = new FormData(form);
+    const email = String(data.get('email') ?? '').trim();
+    const subscribe = data.get('subscribe') === 'on';
+
+    try {
+      const response = await fetch('/psapi-internal-v1/forms/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          _formId: 'mailing-list',
+          email,
+          subscribe,
+          altcha: data.get('altcha'),
+        }),
+      });
+      const result = await response.json().catch(() => ({}));
+
+      if (response.ok && result.success) {
+        form.reset();
+        showStatus('Thank you! You are on our mailing list.', 'success');
+      } else {
+        throw new Error(result.error || 'Your request could not be sent. Please try again.');
+      }
+    } catch (err) {
+      showStatus(err instanceof Error ? err.message : 'Your request could not be sent. Please try again.', 'error');
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  });
+</script>

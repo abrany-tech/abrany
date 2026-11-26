@@ -1,0 +1,25 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogLayout from '@/layouts/BlogLayout.astro';
+
+// Article entries from the blog collection are served at the root of the site,
+// at the same address as the original source page (/<slug>/). The entry id is
+// the file name without the extension, so src/content/blog/<slug>.mdx is served
+// at /<slug>/. Static pages (services, about, contact, insights, privacy-policy)
+// take precedence over this route.
+export async function getStaticPaths() {
+  const entries = await getCollection('blog', ({ data }) => data.draft !== true);
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const mdxFilePath = `src/content/blog/${entry.id}.mdx`;
+---
+
+<BlogLayout frontmatter={entry.data} mdxFilePath={mdxFilePath}>
+  <Content />
+</BlogLayout>

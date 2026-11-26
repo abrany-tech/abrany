@@ -1,0 +1,24 @@
+---
+import { SITE } from '@/config/site';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/home/Hero.astro';
+import Subscribe from '@/components/home/Subscribe.astro';
+---
+
+<BaseLayout
+  title={SITE.title}
+  description={SITE.description}
+  type="website"
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: new URL(Astro.url.pathname, SITE.url).toString(),
+    sameAs: Object.values(SITE.socials),
+  }}
+>
+  <div style="background-image: url('https://pagesmith-cdn.com/b8f1e60d/images/89a094_0f0b2afe86bb4895819977cfece78a3d~mv2-4d6e34-983.webp'); background-size: auto; background-repeat: repeat; background-position: 50% 50%;" data-ps="src/pages/index.astro:2b7xns">
+    <Hero />
+    <Subscribe />
+  </div>
+</BaseLayout>
